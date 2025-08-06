@@ -28,6 +28,7 @@
   [
     # change this to your ssh key
     "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEYsPcg+eSHxQS2Th6kSGWP1tmiSQfWNC95FimkD9kWG"
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJceYzsfkSPkPwIoKKep/1yDJM25OnzQo4RUo+NB2qGn"
   ] ++ (args.extraPublicKeys or []); # this is used for unit-testing this module and can be removed if not needed
 
   system.stateVersion = "25.05";
